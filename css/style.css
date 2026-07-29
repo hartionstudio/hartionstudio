@@ -179,9 +179,9 @@ header.navbar.scrolled {
 }
 
 .logo-icon {
-  width: 42px;
-  height: 42px;
-  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
   overflow: hidden;
   border: 1px solid var(--border-glass-glow);
   box-shadow: var(--shadow-glow-cyan);
@@ -194,7 +194,8 @@ header.navbar.scrolled {
 .logo-icon img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+padding: 4px;
 }
 
 .logo-text {
