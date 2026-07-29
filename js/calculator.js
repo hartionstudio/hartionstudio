@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let state = {
     service: '3D Design & CGI',
-    servicePrice: 1200,
+    servicePrice: 12000,
     scope: 'Medium Project Scope',
     scopeMult: 1.0,
     timeline: 'Standard (2-3 Weeks)',
