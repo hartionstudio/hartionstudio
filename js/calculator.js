@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (selectedTimeEl) selectedTimeEl.textContent = state.timeline;
 
     // Animate price change
-    totalPriceEl.textContent = `$${finalPrice.toLocaleString()}`;
+   totalPriceEl.textContent = `₹${finalPrice.toLocaleString('en-IN')}`;
   }
 
   serviceOptions.forEach(btn => {
